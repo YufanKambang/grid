@@ -153,6 +153,7 @@ class Cell:
             self._neighbours += 1
 
         # Cell isn't on top edge.
+        #this was "w" but changed to "h - 1"
         if self._y < h - 1:
             self._neighbour_list[3] = self._y + 1
             self._neighbours += 1
