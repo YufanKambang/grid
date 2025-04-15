@@ -26,4 +26,7 @@ jobs:
         python -m pip install pytest
     - name: Test with pytest
       run: |
-        pytest
+        pytest --cov=./
+    - name: Upload coverage report
+      run: |
+        codecov
