@@ -7,3 +7,4 @@
 A repository to test continuous integration for the [Introduction to Testing and Continuous Integration in Python](https://edbennett.github.io/python-testing-ci) lesson.
 
 Im adding this to test [ci skip] on my repo for github-actions
+im adding this line to test the coverage integration with github-actions
